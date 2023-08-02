@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import '../App.css';
 import Navigation from './Navigation';
 import AboutMe from './pages/AboutMe'
 import Contact from './pages/Contact'
