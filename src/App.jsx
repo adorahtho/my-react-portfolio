@@ -1,13 +1,11 @@
 
-// import './App.css'
+import './App.css'
 import Header from './components/Header'
-// import Footer from './assets/components/Footer'
 
 function App() {
   return (
     <div>
       <Header />
-      {/* <Footer /> */}
     </div>
   )
 }

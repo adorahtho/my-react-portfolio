@@ -7,3 +7,5 @@ export default function Portfolio() {
     </div>
   )
 }
+
+// inside the portfolio are the projects. use this file to form the layout for the page and then use Project.jsx to create the images for each project.

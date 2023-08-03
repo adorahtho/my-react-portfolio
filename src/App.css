@@ -28,3 +28,27 @@ nav a:hover {
   color: white;
   text-shadow: #fc0 1px 0 10px;
 }
+
+footer {
+  background-color: var(--dark-blue);
+  height: 80px;
+}
+
+footer h4 {
+  text-align: center;
+  color: var(--light-blue);
+  font-style: italic;
+}
+
+.logo {
+  height: 60px;
+  padding: 10px;
+}
+
+.logoDiv {
+  margin-left: 43%;
+}
+
+.logo:hover {
+  filter: brightness(60%);
+}

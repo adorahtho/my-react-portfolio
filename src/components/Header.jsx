@@ -5,6 +5,7 @@ import AboutMe from './pages/AboutMe'
 import Contact from './pages/Contact'
 import Portfolio from './pages/Portfolio'
 import Resume from './pages/Resume'
+import Footer from './Footer'
 
 export default function Header() {
   const [currentPage, setCurrentPage] = useState('AboutMe');
@@ -40,6 +41,9 @@ export default function Header() {
           {renderPage()}
         </section>
       </main>
+      <div>
+        <Footer />
+      </div>
     </div>
   )
 }
