@@ -31,10 +31,9 @@ nav a:hover {
 
 footer {
   background-color: var(--dark-blue);
-  height: 80px;
   width: 100%;
-  padding: 10px;
-  position: absolute;
+  padding: 5px;
+  position: fixed;
   bottom: 0;
 }
 
@@ -45,12 +44,12 @@ footer h4 {
 }
 
 .logo {
-  height: 60px;
-  padding: 10px;
+  height: 40px;
+  padding: 5px;
 }
 
 .logoDiv {
-  margin-left: 43%;
+  margin-left: 45%;
 }
 
 .logo:hover {
@@ -63,4 +62,91 @@ footer h4 {
   margin-bottom: 30px;
   line-height: 1.5;
 }
-/* try to get footer to stay at the bottom of the page without moving */
+
+/*Images in work section*/
+.work-images {
+  flex-wrap: wrap;
+  padding-left: 20px;
+  border-left: solid var(--dark-blue);
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
+
+.card {
+  height: 150px;
+  border: solid var(--light-blue);
+  margin-bottom: 20px;
+  display: flex;
+  opacity: .6;
+  width: 100%;
+}
+
+/*Size modifications for surf report image*/
+.surf-image {
+  width: 100%;
+}
+
+#card-surf {
+  margin-bottom: 20px;
+  height: 300px;
+}
+
+/*Size modifications for LED Wall and Pastel Puzzel images*/
+.left-images {
+  width: 50%;
+}
+
+/*Size modifications for Calculator and Run Buddy images*/
+.right-images {
+  padding-left: 20px;
+  width: 50%;
+}
+
+/*When mouse hovers over images in work section, the opacity goes from .6 to 1*/
+.card:hover {
+  opacity: 1;
+}
+
+.small-fontsize {
+  font-size: 11px;
+}
+
+#surf-text {
+  bottom: 110px;
+  position: absolute;
+  width: fit-content;
+  background-color: var(--light-blue);
+  padding: 10px;
+}
+
+#led-text {
+  bottom: -60px;
+  position: absolute;
+  width: fit-content;
+  background-color: var(--light-blue);
+  padding: 10px;
+}
+
+#puzzles-text {
+  bottom: -230px;
+  position: absolute;
+  width: fit-content;
+  background-color: var(--light-blue);
+  padding: 10px;
+}
+
+#calculator-text {
+  bottom: -60px;
+  position: absolute;
+  width: fit-content;
+  background-color: var(--light-blue);
+  padding: 10px;
+}
+
+#run-text {
+  bottom: -230px;
+  position: absolute;
+  width: fit-content;
+  background-color: var(--light-blue);
+  padding: 10px;
+}
