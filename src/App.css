@@ -31,8 +31,11 @@ nav a:hover {
 
 footer {
   background-color: var(--dark-blue);
-  /* height: 80px;
-  padding: 10px; */
+  height: 80px;
+  width: 100%;
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
 }
 
 footer h4 {
