@@ -12,6 +12,10 @@
 
 body {
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+  display: grid;
+  grid-template-rows: 1fr auto; /* The "1fr" means the main content area will take all available space, "auto" means the footer will adjust to its content height */
+  min-height: 100vh; /* Ensures the body stretches to fill the viewport */
+  margin: 0;
 }
 
 /*Header with dark blue background and space between h1 element and navigation so they're on opposite sides of the page.*/

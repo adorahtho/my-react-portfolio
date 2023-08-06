@@ -31,7 +31,8 @@ nav a:hover {
 
 footer {
   background-color: var(--dark-blue);
-  height: 80px;
+  /* height: 80px;
+  padding: 10px; */
 }
 
 footer h4 {
@@ -52,3 +53,11 @@ footer h4 {
 .logo:hover {
   filter: brightness(60%);
 }
+
+.aboutme-text {
+  font-size: 14px;
+  padding: 20px;
+  margin-bottom: 30px;
+  line-height: 1.5;
+}
+/* try to get footer to stay at the bottom of the page without moving */
