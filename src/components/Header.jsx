@@ -33,8 +33,8 @@ export default function Header() {
       </header>
       <main>
         <div className="container">
-          <img src="/assets/images/main-background.png" className="main-background" alt="Orange and blue data analytics background"/>
-          <img src="/assets/images/selfie.jpg" className="selfie-image" alt="Selfie"/>
+          <img src="/src/assets/images/main-background.png" className="main-background" alt="Orange and blue data analytics background"/>
+          <img src="/src/assets/images/selfie.jpg" className="selfie-image" alt="Selfie"/>
           <p className="background-text">Hi, I&apos;m Adorah!</p>
         </div>
         <section>

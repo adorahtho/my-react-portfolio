@@ -63,10 +63,13 @@ footer h4 {
 }
 
 /*Images in work section*/
-.work-images {
+.project-section {
+  padding: 20px;
+}
+
+.project-container {
   display: grid;
   grid-template-columns: auto auto;
-  padding: 20px;
 }
 
 .project-img {
@@ -78,10 +81,6 @@ footer h4 {
 }
 
 /*Size modifications for surf report image*/
-.project-container {
-  display: flex;
-  justify-content: center;
-}
 
 /*When mouse hovers over images in work section, the opacity goes from .6 to 1*/
 .project-img:hover {
@@ -93,24 +92,13 @@ footer h4 {
 }
 
 .project-textbox {
-  position: absolute;
+  height: 50px;
   width: fit-content;
   background-color: var(--light-blue);
   padding: 10px;
 }
 
-.gigpub-textspacing {
-  bottom: 200px;
-}
-
-.puzzle-calc-textspacing {
-  bottom: -190px;
-}
-
-.runbuddy-textspacing {
-  bottom: -590px;
-}
-
+/*When screen shrinks to 1200px the following will apply for readability and spacing*/
 @media screen and (max-width: 1200px) {
   header {
     flex-direction: column;
@@ -139,7 +127,7 @@ footer h4 {
   }
 }
 
-/*When screen shrinks to 550px the following will apply for readability and spacing*/
+/*When screen shrinks to 625px the following will apply for readability and spacing*/
 @media screen and (max-width: 625px) {
   html {
     display: grid;
