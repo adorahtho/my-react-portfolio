@@ -3,31 +3,43 @@ const projects = [
     projectTitle: "GigPub",
     language: "HTML/CSS/TailwindCSS/W3.CSS/JavaScript",
     imageSource: "/src/assets/images/gitpub-mock-image.png",
-    projectLink: "https://mewesley1984.github.io/GitPub/"
+    deployedLink: "https://mewesley1984.github.io/GitPub/",
+    githubRepo: "https://github.com/mewesley1984/GitPub.git"
   },
   {
     projectTitle: "GigPub 2.0",
     language: "HTML/CSS/TailwindCSS/W3.CSS/JavaScript/Node.js/MySQL2",
     imageSource: "/src/assets/images/GigPub2.0.png",
-    projectLink: "https://boiling-journey-48938-11ea72bc1c15.herokuapp.com/"
+    deployedLink: "https://boiling-journey-48938-11ea72bc1c15.herokuapp.com/",
+    githubRepo: "https://github.com/Trevor-McGuire/GigPub-2.0.git"
   },
   {
-    projectTitle: "Pastel Puzzles",
-    language: "MERN Stack",
-    imageSource: "/src/assets/images/pastel-puzzles.png",
-    projectLink: "#"
+    projectTitle: "J.A.T.E",
+    language: "HTML/CSS/JavaScript/Workbox/Service Workers/IndexedDB",
+    imageSource: "/src/assets/images/jate.png",
+    deployedLink: "https://cryptic-lake-08316-722d7609fd3f.herokuapp.com/",
+    githubRepo: "https://github.com/adorahtho/text-editor.git"
   },
   {
-    projectTitle: "Calculator",
-    language: "React/JavaScript/CSS",
-    imageSource: "/src/assets/images/calculator.png",
-    projectLink: "#"
+    projectTitle: "Note Taker",
+    language: "Node.js/JavaScript/Express.js/HTML/CSS",
+    imageSource: "/src/assets/images/note-taker.png",
+    deployedLink: "https://murmuring-basin-97362.herokuapp.com/",
+    githubRepo: "https://github.com/adorahtho/note-taker.git"
   },
   {
-    projectTitle: "Run Buddy",
-    language: "HTML/CSS",
-    imageSource: "/src/assets/images/run-buddy.png",
-    projectLink: "#"
+    projectTitle: "Weather Dashboard",
+    language: "HTML/CSS/JavaScript",
+    imageSource: "/src/assets/images/weather-dashboard.png",
+    deployedLink: "https://adorahtho.github.io/weather-dashboard/",
+    githubRepo: "https://github.com/adorahtho/weather-dashboard.git"
+  },
+  {
+    projectTitle: "Work Day Scheduler",
+    language: "HTML/CSS/JavaScript/jQuery/Day.js",
+    imageSource: "/src/assets/images/workday-scheduler.png",
+    deployedLink: "https://adorahtho.github.io/work-day-scheduler/",
+    githubRepo: "https://github.com/adorahtho/work-day-scheduler.git"
   }
 ]
 
@@ -41,8 +53,9 @@ export default function Project() {
             <p className="small-fontsize">
               {project.language}
             </p>
+            <a href={project.githubRepo} className="small-fontsize">GitHub Repo</a>
           </div>
-          <a href={project.projectLink}>
+          <a href={project.deployedLink}>
             <img
               src={project.imageSource}
               alt="Coding Projects"
