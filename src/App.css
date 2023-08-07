@@ -83,17 +83,6 @@ footer h4 {
   justify-content: center;
 }
 
-/*Size modifications for LED Wall and Pastel Puzzel images*/
-/* .left-images {
-  width: 50%;
-} */
-
-/*Size modifications for Calculator and Run Buddy images*/
-/* .right-images {
-  padding-left: 20px;
-  width: 50%;
-} */
-
 /*When mouse hovers over images in work section, the opacity goes from .6 to 1*/
 .project-img:hover {
   opacity: 1;
@@ -120,4 +109,43 @@ footer h4 {
 
 .runbuddy-textspacing {
   bottom: -590px;
+}
+
+@media screen and (max-width: 1200px) {
+  header {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  h1 {
+  text-align: center;
+  color: var(--dark-blue);
+  }
+  .work-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+  .project-container {
+    padding: 5px;
+  }
+  .gigpub-textspacing {
+    display: none;
+  }
+  .puzzle-calc-textspacing {
+    display: none;
+  } 
+  .runbuddy-textspacing {
+    display: none;
+  }
+}
+
+/*When screen shrinks to 550px the following will apply for readability and spacing*/
+@media screen and (max-width: 625px) {
+  html {
+    display: grid;
+  }
+  .project-img {
+    height: 300px;
+    width: 470px;
+  }
 }
