@@ -4,45 +4,49 @@ export default function Portfolio() {
       <h3>
         Portfolio Page:
       </h3>
-      <section class="work-images">
-          <div class="surf-image">
+      <section className="work-images">
+          <div className="project-container">
             <a href="https://mewesley1984.github.io/GitPub/ ">
-              <img src="../../../public/assets/images/gitpub-mock-image.png" alt="surf report" class="card" id="card-surf"/>
-              <div id="surf-text">
+              <img src="/assets/images/gitpub-mock-image.png" alt="GigPub Project" className="project-img"/>
+              <div className="project-textbox gigpub-textspacing">
                 <h4>GigPub</h4>
-                <p class="small-fontsize">HTML/CSS/TailwindCSS/W3.CSS/JavaScript</p>
+                <p className="small-fontsize">HTML/CSS/TailwindCSS/W3.CSS/JavaScript</p>
               </div> 
             </a>  
           </div>
-          <div class="left-images">
+          <div className="project-container">
             <a href="https://boiling-journey-48938-11ea72bc1c15.herokuapp.com/">
-              <img src="../../../public/assets/images/GigPub2.0.png" alt="LED wall" class="card" id="left-cards"/>
-              <div id="led-text">
+              <img src="/assets/images/GigPub2.0.png" alt="GigPub2.0 Project" className="project-img"/>
+              <div className="project-textbox gigpub-textspacing">
                 <h4>GigPub 2.0</h4>
-                <p class="small-fontsize">HTML/CSS/TailwindCSS/W3.CSS/JavaScript/Node.js/MySQL2</p>
-              </div>
-            </a>
-            <a href="#">
-              <img src="./assets/Images/pastel-puzzles.png" alt="pastel puzzles" class="card"/>
-              <div id="puzzles-text">
-                <h4>Pastel Puzzles</h4>
-                <p class="small-fontsize">MERN Stack</p>
+                <p className="small-fontsize">HTML/CSS/TailwindCSS/W3.CSS/JavaScript/Node.js/MySQL2</p>
               </div>
             </a>
           </div>
-          <div class="right-images">
+          <div className="project-container">
             <a href="#">
-              <img src="./assets/Images/calculator.png" alt="calculator" class="card" id="right-cards"/>
-              <div id="calculator-text">
-                <h4>Calculator</h4>
-                <p class="small-fontsize">React/JavaScript/CSS</p>
+              <img src="/assets/images/pastel-puzzles.png" alt="pastel puzzles" className="project-img"/>
+              <div className="project-textbox puzzle-calc-textspacing">
+                <h4>Pastel Puzzles</h4>
+                <p className="small-fontsize">MERN Stack</p>
               </div>
             </a>
+          </div>
+          <div className="project-container">
             <a href="#">
-              <img src="./assets/Images/run-buddy.png" alt="run buddy" class="card"/>
-              <div id="run-text">
+              <img src="/assets/images/calculator.png" alt="calculator" className="project-img"/>
+              <div className="project-textbox puzzle-calc-textspacing">
+                <h4>Calculator</h4>
+                <p className="small-fontsize">React/JavaScript/CSS</p>
+              </div>
+            </a>
+          </div>
+          <div className="project-container">
+            <a href="#">
+              <img src="/assets/images/run-buddy.png" alt="run buddy" className="project-img"/>
+              <div className="project-textbox runbuddy-textspacing">
                 <h4>Run Buddy</h4>
-                <p class="small-fontsize">HTML/CSS</p>
+                <p className="small-fontsize">HTML/CSS</p>
               </div>
             </a>
           </div>

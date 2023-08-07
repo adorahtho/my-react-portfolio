@@ -32,7 +32,6 @@ nav a:hover {
 footer {
   background-color: var(--dark-blue);
   width: 100%;
-  padding: 5px;
   position: fixed;
   bottom: 0;
 }
@@ -65,45 +64,38 @@ footer h4 {
 
 /*Images in work section*/
 .work-images {
-  flex-wrap: wrap;
-  padding-left: 20px;
-  border-left: solid var(--dark-blue);
-  padding-bottom: 20px;
-  margin-bottom: 30px;
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 20px;
 }
 
-.card {
-  height: 150px;
+.project-img {
   border: solid var(--light-blue);
-  margin-bottom: 20px;
-  display: flex;
   opacity: .6;
-  width: 100%;
+  margin-bottom: 40px;
+  height: 350px;
+  width: 590px;
 }
 
 /*Size modifications for surf report image*/
-.surf-image {
-  width: 100%;
-}
-
-#card-surf {
-  margin-bottom: 20px;
-  height: 300px;
+.project-container {
+  display: flex;
+  justify-content: center;
 }
 
 /*Size modifications for LED Wall and Pastel Puzzel images*/
-.left-images {
+/* .left-images {
   width: 50%;
-}
+} */
 
 /*Size modifications for Calculator and Run Buddy images*/
-.right-images {
+/* .right-images {
   padding-left: 20px;
   width: 50%;
-}
+} */
 
 /*When mouse hovers over images in work section, the opacity goes from .6 to 1*/
-.card:hover {
+.project-img:hover {
   opacity: 1;
 }
 
@@ -111,42 +103,21 @@ footer h4 {
   font-size: 11px;
 }
 
-#surf-text {
-  bottom: 110px;
+.project-textbox {
   position: absolute;
   width: fit-content;
   background-color: var(--light-blue);
   padding: 10px;
 }
 
-#led-text {
-  bottom: -60px;
-  position: absolute;
-  width: fit-content;
-  background-color: var(--light-blue);
-  padding: 10px;
+.gigpub-textspacing {
+  bottom: 200px;
 }
 
-#puzzles-text {
-  bottom: -230px;
-  position: absolute;
-  width: fit-content;
-  background-color: var(--light-blue);
-  padding: 10px;
+.puzzle-calc-textspacing {
+  bottom: -190px;
 }
 
-#calculator-text {
-  bottom: -60px;
-  position: absolute;
-  width: fit-content;
-  background-color: var(--light-blue);
-  padding: 10px;
-}
-
-#run-text {
-  bottom: -230px;
-  position: absolute;
-  width: fit-content;
-  background-color: var(--light-blue);
-  padding: 10px;
+.runbuddy-textspacing {
+  bottom: -590px;
 }
