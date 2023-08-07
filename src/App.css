@@ -80,8 +80,6 @@ footer h4 {
   width: 590px;
 }
 
-/*Size modifications for surf report image*/
-
 /*When mouse hovers over images in work section, the opacity goes from .6 to 1*/
 .project-img:hover {
   opacity: 1;
@@ -96,6 +94,44 @@ footer h4 {
   width: fit-content;
   background-color: var(--light-blue);
   padding: 10px;
+}
+
+.form-container {
+  display: grid;
+  padding: 40px;
+  margin-bottom: 40px;
+}
+
+#contact-title {
+  text-align: center;
+}
+
+.contact-form {
+  border: 2px solid;
+  width: 400px;
+  height: 420px;
+  padding: 20px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+}
+
+textarea {
+  width: 100%;
+}
+
+.message-textbox {
+  height: 150px;
+}
+
+button {
+  font-size: 15px;
+  display: flex;
 }
 
 /*When screen shrinks to 1200px the following will apply for readability and spacing*/
